@@ -88,6 +88,7 @@ public class Customize : MonoBehaviour
     }
 
     public void Save() {
+        Debug.Log("face: "+position[0]+", costume: "+position[1]+", hat: "+position[2]);
     	ClothesSystem.CustomizeAnimation(position[0],position[1],position[2]);
     	exit();
     }

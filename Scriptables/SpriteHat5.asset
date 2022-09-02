@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f00f3fbc09132489536b50b8d8253d, type: 3}
+  m_Name: SpriteHat5
+  m_EditorClassIdentifier: 
+  spriteArray:
+  - {fileID: -3272343957218218812, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - {fileID: -9972899507717505, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - {fileID: -4119122851539384819, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - {fileID: -6681118848089348004, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - {fileID: -4568291883098568842, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}

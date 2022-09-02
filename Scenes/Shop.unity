@@ -239,7 +239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 540}
   m_SizeDelta: {x: 0, y: 84.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &65962261
@@ -853,9 +853,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &221807494
 MonoBehaviour:
@@ -1321,7 +1321,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3285,18 +3285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cd6cdb6c6ad2194e85d6110561254c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Heads:
-  - {fileID: 11400000, guid: 30d7bfc8251403343a76a33943349f54, type: 2}
-  Bodys:
-  - {fileID: 11400000, guid: 5c9eeb75b961a83478f0372f5568f65b, type: 2}
-  - {fileID: 11400000, guid: f815973ddb143774d83f221e98c6685b, type: 2}
-  - {fileID: 11400000, guid: adc3e274e0ac11343825332d1ddbada3, type: 2}
-  Hats:
-  - {fileID: 11400000, guid: 1aacec5b78d58fe43b7afb88719f4173, type: 2}
-  - {fileID: 11400000, guid: 4bbcfab534227ff47b48520356ae4ad3, type: 2}
-  - {fileID: 11400000, guid: ccfb6475bee86e640bcfbe1754930dc7, type: 2}
   Principal: {fileID: 11400000, guid: 683c447fe849957418080157a9d9703b, type: 2}
   Preview: {fileID: 0}
+  Items: {fileID: 11400000, guid: 672a884a24c02c74390e681278b6b84c, type: 2}
 --- !u!114 &579553253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7573,7 +7564,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7860,9 +7851,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1389365418
 MonoBehaviour:
@@ -10659,29 +10650,102 @@ MonoBehaviour:
   - {fileID: 147166892}
   - {fileID: 1416722049}
   - {fileID: 1955183896}
---- !u!114 &1819671518
-MonoBehaviour:
+--- !u!82 &1819671518
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819671512}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc121e059bff52345bb2e71b2ca1762c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Container: {fileID: 499254514}
-  shopItems: {fileID: 11400000, guid: ef98ed4d2967f5e4da5bd05bf9f4bc33, type: 2}
-  Costumes: []
-  Hats: []
-  icon: {fileID: 891199834}
-  itemPrefab: {fileID: 3355925982229987524, guid: 8877ab71341ae1c408fde1629db9d8b4, type: 3}
-  iconSelect: {fileID: 1926922027}
-  scroll: {fileID: 443146376}
-  content: {fileID: 499254515}
-  playerItems: {fileID: 11400000, guid: 672a884a24c02c74390e681278b6b84c, type: 2}
-  moneyText: {fileID: 1042115842}
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 80560602a35290e42aa34c1a1851da2d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.69
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1841882882
 GameObject:
   m_ObjectHideFlags: 0
@@ -11303,13 +11367,14 @@ GameObject:
   - component: {fileID: 1943649648}
   - component: {fileID: 1943649650}
   - component: {fileID: 1943649649}
+  - component: {fileID: 1943649651}
   m_Layer: 5
   m_Name: StoreReArise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1943649648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11371,6 +11436,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943649647}
   m_CullTransparentMesh: 1
+--- !u!114 &1943649651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943649647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc121e059bff52345bb2e71b2ca1762c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Container: {fileID: 499254514}
+  shopItems: {fileID: 11400000, guid: ef98ed4d2967f5e4da5bd05bf9f4bc33, type: 2}
+  Costumes: []
+  Hats: []
+  icon: {fileID: 891199834}
+  itemPrefab: {fileID: 3355925982229987524, guid: 8877ab71341ae1c408fde1629db9d8b4, type: 3}
+  iconSelect: {fileID: 1926922027}
+  scroll: {fileID: 443146376}
+  content: {fileID: 499254515}
+  playerItems: {fileID: 11400000, guid: 672a884a24c02c74390e681278b6b84c, type: 2}
+  moneyText: {fileID: 1042115842}
 --- !u!1 &1952516351
 GameObject:
   m_ObjectHideFlags: 0
