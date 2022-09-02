@@ -53,9 +53,9 @@ public class ChangeClothes : MonoBehaviour
     	Clean();
     	int cont=0;
     	int tempy, tempx;
-    	//Debug.Log("posx: "+posx+" / posy: "+posy);
     	for (int row = 0; row < 8; row++) {
     		for (int col = 0; col < 5; col++) {
+                //COSTUMES
     			recorrer(BodyNum,cont);
     			for (int x = 0; x < Bodys[BodyNum].spriteArray[cont].rect.width; x++) {
 		    		for (int y = 0; y < Bodys[BodyNum].spriteArray[cont].rect.height; y++) {
@@ -76,6 +76,16 @@ public class ChangeClothes : MonoBehaviour
 			    		}
 		    		}
 		    	}
+                //HATS
+                for (int x = 0; x < Hats[HatNum].spriteArray[col].rect.width; x++) {
+                    for (int y = 0; y < Hats[HatNum].spriteArray[col].rect.height; y++) {
+                        var color = Hats[HatNum].spriteArray[col].texture.GetPixel((int)Hats[HatNum].spriteArray[col].rect.x+x,(int)Hats[HatNum].spriteArray[col].rect.y+y);
+                        if (color.a != 0) {
+                            posy=(int)(Principal.spriteArray[0].texture.height - Hats[HatNum].spriteArray[col].rect.height) - (25 + (143*col));
+                            Principal.spriteArray[0].texture.SetPixel(43+(124*row)+x,posy+y, color);
+                        }
+                    }
+                }
 		    	cont = cont + 1;
 		    	Principal.spriteArray[0].texture.Apply();
     		}

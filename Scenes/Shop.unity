@@ -3292,7 +3292,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f815973ddb143774d83f221e98c6685b, type: 2}
   - {fileID: 11400000, guid: adc3e274e0ac11343825332d1ddbada3, type: 2}
   Hats:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1aacec5b78d58fe43b7afb88719f4173, type: 2}
+  - {fileID: 11400000, guid: 4bbcfab534227ff47b48520356ae4ad3, type: 2}
+  - {fileID: 11400000, guid: ccfb6475bee86e640bcfbe1754930dc7, type: 2}
   Principal: {fileID: 11400000, guid: 683c447fe849957418080157a9d9703b, type: 2}
   Preview: {fileID: 0}
 --- !u!114 &579553253
