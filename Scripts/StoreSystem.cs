@@ -35,6 +35,11 @@ public class StoreSystem : MonoBehaviour
 	private float temp;
 	private int money=23500;
 
+	void OnEnable()
+    {
+        Player.GetComponent<PlayerMov>().enabled = false;
+    }
+
 	public void GetItems() {
 		itemRects = new List<RectTransform>();
 		for (int i=0;i<shopItems.items.Count;i++) {
@@ -112,5 +117,10 @@ public class StoreSystem : MonoBehaviour
         		GetItems();
         	}
         }
+    }
+
+    public void exit() {
+    	 Player.GetComponent<PlayerMov>().enabled = true;
+    	this.gameObject.SetActive(false);
     }
 }
