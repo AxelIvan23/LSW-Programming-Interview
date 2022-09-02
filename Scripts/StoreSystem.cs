@@ -29,6 +29,8 @@ public class StoreSystem : MonoBehaviour
 	private ItemsArray playerItems;
 	[SerializeField]
 	private Text moneyText;
+	[SerializeField]
+	private GameObject Player;
 
 	private List<RectTransform> itemRects;
 	private int count, count2;

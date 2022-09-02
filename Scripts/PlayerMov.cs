@@ -15,12 +15,17 @@ public class PlayerMov : MonoBehaviour
 	private GameObject camera;
 	[SerializeField]
 	private DialogSystem dialogSystem;
+
+    [SerializeField]
+    private ChangeClothes ClothesSystem;
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         renderer = gameObject.GetComponent<SpriteRenderer>();
         vel = 0.02f;
+
+        ClothesSystem.CustomizeAnimation(0,0,0);
     }
 
     // Update is called once per frame
