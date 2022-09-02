@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8af2b7db918074b9fb924d3c6de7a8, type: 3}
+  m_Name: PlayerItems
+  m_EditorClassIdentifier: 
+  items:
+  - id: 0
+    type: Costume
+    sold: 1
+    cost: 0
+    name: Initial Costume
+    description: The costume you had when you arrived to this world
+    image: {fileID: 9095853184155359625, guid: 87bd0531316182d48840d0eb3bd479f0, type: 3}
+    spriteArray: {fileID: 11400000, guid: 5c9eeb75b961a83478f0372f5568f65b, type: 2}
+  - id: 1
+    type: Costume
+    sold: 1
+    cost: 0
+    name: Kung Fu Costume
+    description: 
+    image: {fileID: 1535669736731373271, guid: a7c5c820ff2041c4993116f9c95d59c0, type: 3}
+    spriteArray: {fileID: 11400000, guid: f815973ddb143774d83f221e98c6685b, type: 2}
+  - id: 1
+    type: Hair
+    sold: 1
+    cost: 0
+    name: Normal
+    description: Initial hair style
+    image: {fileID: 2792227532817499138, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+    spriteArray: {fileID: 11400000, guid: 30d7bfc8251403343a76a33943349f54, type: 2}
+  - id: -1
+    type: Hat
+    sold: 1
+    cost: 0
+    name: No Hat
+    description: No hat added
+    image: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    spriteArray: {fileID: 0}

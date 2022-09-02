@@ -1,0 +1,14 @@
+{	
+	"id": 0,
+	"type": "costume",
+	"cost": 12000,
+	"name":	"",
+	"description": "",
+},
+{	
+	"id": 1,
+	"type": "costume",
+	"cost": 12000,
+	"name":	"Kung fu",
+	"description": "For those who walk the path of a kung fu warrior"
+}

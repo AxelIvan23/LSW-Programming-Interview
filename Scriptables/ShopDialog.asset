@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e39bdffddbb8b34a99fc48829e4c915, type: 3}
+  m_Name: ShopDialog
+  m_EditorClassIdentifier: 
+  messages:
+  - message: 'strange shop owner: Welcome to Digital Shop! place of awesome Costumes
+      and hats'
+    emotion: {fileID: 6485391742883654098, guid: 0143a7f8106bd484985a5f7e62021f93, type: 3}
+    decision: []
+  - message: 'strange shop owner: Uhh? why i have armors and weapons in my store
+      if i dont sell any of them? don''t talk nonsense'
+    emotion: {fileID: -507662362490480129, guid: 0143a7f8106bd484985a5f7e62021f93, type: 3}
+    decision: []
+  - message: 'strange shop owner: anyways, i hope you find you''re looking up. What
+      do you want to do?'
+    emotion: {fileID: 1184737194710185003, guid: 0143a7f8106bd484985a5f7e62021f93, type: 3}
+    decision:
+    - Buy!
+    - Customize!
+    - close

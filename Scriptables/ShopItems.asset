@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8af2b7db918074b9fb924d3c6de7a8, type: 3}
+  m_Name: ShopItems
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    type: Costume
+    sold: 1
+    cost: 5000
+    name: Kung Fu Costume
+    description: Costume based on an ancient kungfu village
+    image: {fileID: 0}
+  - id: 2
+    type: Costume
+    sold: 0
+    cost: 6500
+    name: Ninja Killer Costume
+    description: A Ninja Costume that adds speed and letality to who use it.
+    image: {fileID: 9123750145442138039, guid: 19638a69e3f16954683c0e5d3b6349f2, type: 3}
+  - id: 3
+    type: Costume
+    sold: 0
+    cost: 6800
+    name: Formal Costume 1
+    description: This costume is great if an elegant dinner is on the schedule
+    image: {fileID: -3976494927918772410, guid: fc5537946a8330a43b80a880619f4bf8, type: 3}
+  - id: 4
+    type: Costume
+    sold: 0
+    cost: 3900
+    name: Night Bandit Costume
+    description: This costume will help to wander in the night unnoticed.
+    image: {fileID: -5542147036822541906, guid: 3d677221cfb25cf47b9fb8694380ab02, type: 3}
+  - id: 5
+    type: Costume
+    sold: 0
+    cost: 3200
+    name: Beach swimwear
+    description: A stylized swimwear costume perfect for a day on the beach, adds
+      water element resistance
+    image: {fileID: -7450417863122824874, guid: c793338b6e9a64a439fc46a50c87e8ca, type: 3}
+  - id: 6
+    type: Costume
+    sold: 0
+    cost: 4800
+    name: Martial Arts Costume
+    description: This martial arts costume have a melee combat style. Adds Melee
+      damage +10
+    image: {fileID: 0}
+  - id: 7
+    type: Hat
+    sold: 0
+    cost: 1100
+    name: Kingdom Soldier Hat
+    description: This hat belongs to the soldiers from Digital kingdom
+    image: {fileID: -4909813843165402850, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - id: 8
+    type: Hat
+    sold: 0
+    cost: 2300
+    name: Duck hat
+    description: Great hat with a duck design!
+    image: {fileID: 188892750573496426, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - id: 9
+    type: Hat
+    sold: 0
+    cost: 0
+    name: Witch Hat
+    description: This hat belongs to experienced mages. Magical power +50
+    image: {fileID: -6859929674636716582, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - id: 10
+    type: Hat
+    sold: 0
+    cost: 3150
+    name: Octo Hat
+    description: This cool hat with a design of a octopus is great for acuatic adventures
+    image: {fileID: 691866421784260408, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - id: 11
+    type: Hat
+    sold: 0
+    cost: 9900
+    name: Royal Dragon Hat
+    description: This royal hat symbolizes the era of the dragon
+    image: {fileID: -3862867205759820145, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
+  - id: 12
+    type: Hat
+    sold: 0
+    cost: 9900
+    name: Royal Dragon Hat
+    description: This royal hat symbolizes the era of the dragon
+    image: {fileID: -3862867205759820145, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}

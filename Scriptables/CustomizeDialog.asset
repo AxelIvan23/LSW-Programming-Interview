@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e39bdffddbb8b34a99fc48829e4c915, type: 3}
+  m_Name: CustomizeDialog
+  m_EditorClassIdentifier: 
+  messages:
+  - message: I see you have two costume in your inventory.
+    emotion: {fileID: -2215758843191434025, guid: 0143a7f8106bd484985a5f7e62021f93, type: 3}
+    decision: []
+  - message: "\xBFWhich one do you want to try on?ur inventory."
+    emotion: {fileID: -680270722718610049, guid: 0143a7f8106bd484985a5f7e62021f93, type: 3}
+    decision:
+    - Normal costume
+    - Kung Fu Costume
+    - close

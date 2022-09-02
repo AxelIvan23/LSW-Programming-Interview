@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: 0143a7f8106bd484985a5f7e62021f93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6485391742883654098
+    second: Owner_Chat_0
+  - first:
+      213: -2345199627491902741
+    second: Owner_Chat_1
+  - first:
+      213: 9038040072752270903
+    second: Owner_Chat_2
+  - first:
+      213: -6646895960273454108
+    second: Owner_Chat_3
+  - first:
+      213: 8948385528717780932
+    second: Owner_Chat_4
+  - first:
+      213: 1184737194710185003
+    second: Owner_Chat_5
+  - first:
+      213: -8008829232913162644
+    second: Owner_Chat_6
+  - first:
+      213: -6042050755345236508
+    second: Owner_Chat_7
+  - first:
+      213: 4337842099501173571
+    second: Owner_Chat_8
+  - first:
+      213: -507662362490480129
+    second: Owner_Chat_9
+  - first:
+      213: 4840941635923387440
+    second: Owner_Chat_10
+  - first:
+      213: -756929271279320656
+    second: Owner_Chat_11
+  - first:
+      213: 6075582432433527113
+    second: Owner_Chat_12
+  - first:
+      213: 3621043925151329460
+    second: Owner_Chat_13
+  - first:
+      213: 4959433539109463873
+    second: Owner_Chat_14
+  - first:
+      213: 4066170124335541985
+    second: Owner_Chat_15
+  - first:
+      213: -2215758843191434025
+    second: Owner_Chat_16
+  - first:
+      213: -898660996026245257
+    second: Owner_Chat_17
+  - first:
+      213: 178729938119550926
+    second: Owner_Chat_18
+  - first:
+      213: 3835258278959802219
+    second: Owner_Chat_19
+  - first:
+      213: -680270722718610049
+    second: Owner_Chat_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Owner_Chat_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 826
+        width: 175
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9e4d7dd6db00a50800000000000000
+      internalID: 6485391742883654098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 823
+        width: 175
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea77fb3d5d247fd0800000000000000
+      internalID: -2345199627491902741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 832
+        width: 126
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e05228f819d6d70800000000000000
+      internalID: 9038040072752270903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_3
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 787
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebfbe4475b71c3a0800000000000000
+      internalID: -6646895960273454108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 789
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c728705a3d0f2c70800000000000000
+      internalID: 8948385528717780932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 613
+        width: 141
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24b4ea9338017010800000000000000
+      internalID: 1184737194710185003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 659
+        width: 125
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e5279ce3cead090800000000000000
+      internalID: -8008829232913162644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 658
+        width: 128
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed34c4a9d2562ca0800000000000000
+      internalID: -6042050755345236508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_8
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 662
+        width: 125
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b8088186c133c30800000000000000
+      internalID: 4337842099501173571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_9
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 661
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95be165cb64f8f0800000000000000
+      internalID: -507662362490480129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 661
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034ac9bf4ca7e2340800000000000000
+      internalID: 4840941635923387440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 385
+        width: 101
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b10d4196d8de75f0800000000000000
+      internalID: -756929271279320656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 386
+        width: 99
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ddc0580ec05450800000000000000
+      internalID: 6075582432433527113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 458
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2bbac348804230800000000000000
+      internalID: 3621043925151329460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 456
+        width: 102
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14727c1178273d440800000000000000
+      internalID: 4959433539109463873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 456
+        width: 100
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee63514f20fd6830800000000000000
+      internalID: 4066170124335541985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 249
+        width: 141
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e4ab521b0041e0800000000000000
+      internalID: -2215758843191434025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 251
+        width: 141
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f5b5ed5905783f0800000000000000
+      internalID: -898660996026245257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_18
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 252
+        width: 141
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7e7588ee9fa7200800000000000000
+      internalID: 178729938119550926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 23
+        width: 141
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67664ba513993530800000000000000
+      internalID: 3835258278959802219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Chat_20
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 22
+        width: 141
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d4245c1613f86f0800000000000000
+      internalID: -680270722718610049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Owner_Chat_15: 4066170124335541985
+      Owner_Chat_6: -8008829232913162644
+      Owner_Chat_1: -2345199627491902741
+      Owner_Chat_17: -898660996026245257
+      Owner_Chat_9: -507662362490480129
+      Owner_Chat_11: -756929271279320656
+      Owner_Chat_12: 6075582432433527113
+      Owner_Chat_8: 4337842099501173571
+      Owner_Chat_13: 3621043925151329460
+      Owner_Chat_14: 4959433539109463873
+      Owner_Chat_19: 3835258278959802219
+      Owner_Chat_0: 6485391742883654098
+      Owner_Chat_2: 9038040072752270903
+      Owner_Chat_5: 1184737194710185003
+      Owner_Chat_20: -680270722718610049
+      Owner_Chat_10: 4840941635923387440
+      Owner_Chat_7: -6042050755345236508
+      Owner_Chat_16: -2215758843191434025
+      Owner_Chat_4: 8948385528717780932
+      Owner_Chat_18: 178729938119550926
+      Owner_Chat_3: -6646895960273454108
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
