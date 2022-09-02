@@ -16,7 +16,7 @@ public class StoreSystem : MonoBehaviour
 	[SerializeField]
 	private Sprite[] Hats;
 	[SerializeField]
-	private Image icon;
+	private GameObject icon;
 	[SerializeField]
 	private GameObject itemPrefab;
 	[SerializeField]
@@ -49,7 +49,7 @@ public class StoreSystem : MonoBehaviour
 			//Destroy(itemRects[i].gameObject);
 		}
 		content.sizeDelta = new Vector2(content.sizeDelta.x, 55*shopItems.items.Count);
-		scroll.numberOfSteps=shopItems.items.Count-10;
+		//scroll.numberOfSteps=shopItems.items.Count-11;
 	}
 
 	public void DestroyItems() {
@@ -69,27 +69,37 @@ public class StoreSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow) && count<shopItems.items.Count-1) {
         	count++;
-        	Debug.Log(count);
+        	//Debug.Log("Count"+count);
         	if (count>10+count2) {
-        		scroll.value = (1.0f/scroll.numberOfSteps)*(count-10.0f);
+        		scroll.value = 1.0f-((1.0f/(shopItems.items.Count-11))*(count-10.0f));
+        		Debug.Log(scroll.value);
         		temp = scroll.value;
         		count2++;
         	} else 
         		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y-55);
+        	icon.GetComponent<Image>().sprite = shopItems.items[count].image;
+        	if (shopItems.items[count].type=="Costume") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(100.0f,140.0f);
+        	}
+        	if (shopItems.items[count].type=="Hat") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(90.0f,90.0f);
+        	}
+        	if (shopItems.items[count].type=="Hair") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(90.0f,130.0f);
+        	}
         }
         if (Input.GetKeyDown(KeyCode.UpArrow) && count>0) {
         	count--;
-        	Debug.Log(count);
         	if (count<count2) {
-        		scroll.value = 1.0f - (temp*(count2-count));
+        		scroll.value = ((1.0f/(shopItems.items.Count-11))*(10.0f-count)) - 1.5f;
+        		Debug.Log(scroll.value);
         		count2--;
-        		Debug.Log(1.0f-((1.0f/scroll.numberOfSteps)*(count2-count)));
-        		Debug.Log(1.0f-((1.0f/scroll.numberOfSteps)*(count2-count)));
         	} else 
         		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y+55);
+        	icon.GetComponent<Image>().sprite = shopItems.items[count].image;
         }
         if (Input.GetKeyDown(KeyCode.Space) ) {
-        	if (shopItems.items[count].cost < money) {
+        	if (shopItems.items[count].cost < money && !shopItems.items[count].sold) {
         		ItemsArray.ItemsData temp = new ItemsArray.ItemsData();
         		temp = shopItems.items[count];
         		temp.sold=true;

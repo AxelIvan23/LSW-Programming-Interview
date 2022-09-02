@@ -239,7 +239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 540}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 84.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &65962261
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_Direction: 2
   m_Value: 1
   m_Size: 1
-  m_NumberOfSteps: 5
+  m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3643,9 +3643,9 @@ MonoBehaviour:
   m_Content: {fileID: 499254515}
   m_Horizontal: 0
   m_Vertical: 1
-  m_MovementType: 1
-  m_Elasticity: 0.1
-  m_Inertia: 1
+  m_MovementType: 0
+  m_Elasticity: 0
+  m_Inertia: 0
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 1
   m_Viewport: {fileID: 1389365417}
@@ -4457,7 +4457,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 40, y: -60}
-  m_SizeDelta: {x: 100, y: 130}
+  m_SizeDelta: {x: 90, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891199834
 MonoBehaviour:
@@ -11452,7 +11452,7 @@ MonoBehaviour:
   shopItems: {fileID: 11400000, guid: ef98ed4d2967f5e4da5bd05bf9f4bc33, type: 2}
   Costumes: []
   Hats: []
-  icon: {fileID: 891199834}
+  icon: {fileID: 891199832}
   itemPrefab: {fileID: 3355925982229987524, guid: 8877ab71341ae1c408fde1629db9d8b4, type: 3}
   iconSelect: {fileID: 1926922027}
   scroll: {fileID: 443146376}

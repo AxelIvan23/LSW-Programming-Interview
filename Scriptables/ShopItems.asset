@@ -118,7 +118,7 @@ MonoBehaviour:
     cost: 5000
     name: Kung Fu Costume
     description: Costume based on an ancient kungfu village
-    image: {fileID: 0}
+    image: {fileID: 497465045275964622, guid: a7c5c820ff2041c4993116f9c95d59c0, type: 3}
     spriteArray: {fileID: 0}
   - id: 2
     type: Costume
@@ -130,7 +130,7 @@ MonoBehaviour:
     spriteArray: {fileID: 0}
   - id: 3
     type: Costume
-    sold: 1
+    sold: 0
     cost: 6800
     name: Formal Costume 1
     description: This costume is great if an elegant dinner is on the schedule
@@ -146,7 +146,7 @@ MonoBehaviour:
     spriteArray: {fileID: 0}
   - id: 5
     type: Costume
-    sold: 1
+    sold: 0
     cost: 3200
     name: Beach swimwear
     description: A stylized swimwear costume perfect for a day on the beach, adds
@@ -164,12 +164,12 @@ MonoBehaviour:
     spriteArray: {fileID: 0}
   - id: 7
     type: Hat
-    sold: 0
+    sold: 1
     cost: 1100
     name: Kingdom Soldier Hat
     description: This hat belongs to the soldiers from Digital kingdom
     image: {fileID: -4909813843165402850, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: 4bbcfab534227ff47b48520356ae4ad3, type: 2}
   - id: 8
     type: Hat
     sold: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
     name: Duck hat
     description: Great hat with a duck design!
     image: {fileID: 188892750573496426, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: ccfb6475bee86e640bcfbe1754930dc7, type: 2}
   - id: 9
     type: Hat
     sold: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
     name: Witch Hat
     description: This hat belongs to experienced mages. Magical power +50
     image: {fileID: -6859929674636716582, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: 8acc03f11bcf9ee46807f179bc66719b, type: 2}
   - id: 10
     type: Hat
     sold: 0
@@ -193,20 +193,44 @@ MonoBehaviour:
     name: Octo Hat
     description: This cool hat with a design of a octopus is great for acuatic adventures
     image: {fileID: 691866421784260408, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: fb44770ef7db20645ae2195f91474917, type: 2}
   - id: 11
     type: Hat
     sold: 0
-    cost: 9900
+    cost: 1550
     name: Royal Dragon Hat
     description: This royal hat symbolizes the era of the dragon
     image: {fileID: -3862867205759820145, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: 866f0cb2faa26594fa81592358714b88, type: 2}
   - id: 12
-    type: Hat
+    type: Hair
+    sold: 1
+    cost: 900
+    name: Hair style 1
+    description: Hair style with a ponytail
+    image: {fileID: -3215591868860125525, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+    spriteArray: {fileID: 11400000, guid: d82ff9a67e0408f40b623aef5bfc70dd, type: 2}
+  - id: 13
+    type: Hair
     sold: 0
-    cost: 9900
-    name: Royal Dragon Hat
+    cost: 1350
+    name: Hair style 2
     description: This royal hat symbolizes the era of the dragon
-    image: {fileID: -3862867205759820145, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
-    spriteArray: {fileID: 0}
+    image: {fileID: 6204949609850485130, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+    spriteArray: {fileID: 11400000, guid: 3720d12c303f47d4f9ea571e3ea0d370, type: 2}
+  - id: 12
+    type: Hair
+    sold: 0
+    cost: 1150
+    name: Hair Style 3
+    description: Hairstyle for you
+    image: {fileID: 6204949609850485130, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+    spriteArray: {fileID: 11400000, guid: bc9afb727cdc1d44c90ff341764aa30d, type: 2}
+  - id: 12
+    type: Hair
+    sold: 0
+    cost: 1500
+    name: Hair Style 4
+    description: Last fashion hair style
+    image: {fileID: 8920684085606796518, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+    spriteArray: {fileID: 11400000, guid: 20f96ee8cd1efb84aad5f24b270fc848, type: 2}

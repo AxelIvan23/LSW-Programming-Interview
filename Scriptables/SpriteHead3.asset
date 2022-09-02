@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f00f3fbc09132489536b50b8d8253d, type: 3}
+  m_Name: SpriteHead3
+  m_EditorClassIdentifier: 
+  spriteArray:
+  - {fileID: 6204949609850485130, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+  - {fileID: 3476448294954963328, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+  - {fileID: 3638741070739018747, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+  - {fileID: -2899551216896908348, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
+  - {fileID: 7608630913752466253, guid: d901b23e91127b94fa62f49ce42215c8, type: 3}
