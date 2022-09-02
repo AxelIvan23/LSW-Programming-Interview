@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using System.Collections;
+using System.Collections.Generic;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ItemsArray", order = 2)]
 public class ItemsArray : ScriptableObject
 {
@@ -16,5 +17,7 @@ public class ItemsArray : ScriptableObject
 	}
 	[SerializeField]
     public ItemsData[] items;
+    [SerializeField]
+    public List<ItemsData> items2;
 }
 

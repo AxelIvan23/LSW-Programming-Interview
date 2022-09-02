@@ -21,10 +21,18 @@ public class StoreSystem : MonoBehaviour
 	private GameObject itemPrefab;
 	[SerializeField]
 	private RectTransform iconSelect;
+	[SerializeField]
+	private Scrollbar scroll;
+	[SerializeField]
+	private RectTransform content;
+	[SerializeField]
+	private ItemsArray playerItems;
 	private List<RectTransform> itemRects;
-	private int count;
+	private int count, count2;
+	private float temp;
+	private int money=23500;
 
-	public void GetItems() {
+	public void GetItems(string type) {
 		itemRects = new List<RectTransform>();
 		for (int i=0;i<shopItems.items.Length;i++) {
 			var temp = Instantiate(itemPrefab);
@@ -35,28 +43,50 @@ public class StoreSystem : MonoBehaviour
 				temp.transform.GetChild(3).gameObject.SetActive(true);
 			itemRects.Add(temp.GetComponent<RectTransform>());
 			itemRects[i].anchoredPosition = new Vector2(0, -55*i);
+			//Destroy(itemRects[i].gameObject);
 		}
+		content.sizeDelta = new Vector2(content.sizeDelta.x, 55*shopItems.items.Length);
+		scroll.numberOfSteps=shopItems.items.Length-10;
+	}
+
+	public void DestroyItems() {
+
 	}
     // Start is called before the first frame update
     void Start()
     {
-        GetItems();
-        count=0;
+        GetItems("Costume");
+        count=0; count2=0;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.DownArrow) && count<shopItems.items.Length-1) {
-        	iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y-55);
         	count++;
+        	Debug.Log(count);
+        	if (count>10+count2) {
+        		scroll.value = (1.0f/scroll.numberOfSteps)*(count-10.0f);
+        		temp = scroll.value;
+        		count2++;
+        	} else 
+        		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y-55);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow) && count>0) {
-        	iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y+55);
         	count--;
+        	Debug.Log(count);
+        	if (count<count2) {
+        		scroll.value = 1.0f - (temp*(count2-count));
+        		count2--;
+        		Debug.Log(1.0f-((1.0f/scroll.numberOfSteps)*(count2-count)));
+        		Debug.Log(1.0f-((1.0f/scroll.numberOfSteps)*(count2-count)));
+        	} else 
+        		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y+55);
         }
         if (Input.GetKeyDown(KeyCode.Space) ) {
-        	Debug.Log("Hola");
+        	if (shopItems.items[count].cost < money) {
+        		playerItems.items2.Add(shopItems.items[count]);
+        	}
         }
     }
 }
