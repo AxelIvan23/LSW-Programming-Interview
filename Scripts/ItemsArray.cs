@@ -16,8 +16,8 @@ public class ItemsArray : ScriptableObject
 		public SpriteArray spriteArray;
 	}
 	[SerializeField]
-    public ItemsData[] items;
+    public ItemsData[] items2;
     [SerializeField]
-    public List<ItemsData> items2;
+    public List<ItemsData> items;
 }
 

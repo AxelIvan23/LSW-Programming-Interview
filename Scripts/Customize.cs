@@ -50,7 +50,7 @@ public class Customize : MonoBehaviour
 		hats = new List<ItemsArray.ItemsData>();
 		faces = new List<ItemsArray.ItemsData>();
 
-    	for (int i=0;i<Items.items.Length;i++) {
+    	for (int i=0;i<Items.items.Count;i++) {
     		Debug.Log(Items.items[i].name);
     		if (Items.items[i].type=="Costume")
     			costumes.Add(Items.items[i]);

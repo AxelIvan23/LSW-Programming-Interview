@@ -27,6 +27,7 @@ public class StoreSystem : MonoBehaviour
 	private RectTransform content;
 	[SerializeField]
 	private ItemsArray playerItems;
+
 	private List<RectTransform> itemRects;
 	private int count, count2;
 	private float temp;
@@ -34,7 +35,7 @@ public class StoreSystem : MonoBehaviour
 
 	public void GetItems(string type) {
 		itemRects = new List<RectTransform>();
-		for (int i=0;i<shopItems.items.Length;i++) {
+		for (int i=0;i<shopItems.items.Count;i++) {
 			var temp = Instantiate(itemPrefab);
 			temp.transform.SetParent(Container.transform, false);
 			temp.transform.GetChild(1).GetComponent<Text>().text = shopItems.items[i].name;
@@ -45,8 +46,8 @@ public class StoreSystem : MonoBehaviour
 			itemRects[i].anchoredPosition = new Vector2(0, -55*i);
 			//Destroy(itemRects[i].gameObject);
 		}
-		content.sizeDelta = new Vector2(content.sizeDelta.x, 55*shopItems.items.Length);
-		scroll.numberOfSteps=shopItems.items.Length-10;
+		content.sizeDelta = new Vector2(content.sizeDelta.x, 55*shopItems.items.Count);
+		scroll.numberOfSteps=shopItems.items.Count-10;
 	}
 
 	public void DestroyItems() {
@@ -62,7 +63,7 @@ public class StoreSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow) && count<shopItems.items.Length-1) {
+        if (Input.GetKeyDown(KeyCode.DownArrow) && count<shopItems.items.Count-1) {
         	count++;
         	Debug.Log(count);
         	if (count>10+count2) {
@@ -85,7 +86,7 @@ public class StoreSystem : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) ) {
         	if (shopItems.items[count].cost < money) {
-        		playerItems.items2.Add(shopItems.items[count]);
+        		playerItems.items.Add(shopItems.items[count]);
         	}
         }
     }
