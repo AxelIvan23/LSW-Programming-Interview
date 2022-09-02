@@ -27,13 +27,15 @@ public class StoreSystem : MonoBehaviour
 	private RectTransform content;
 	[SerializeField]
 	private ItemsArray playerItems;
+	[SerializeField]
+	private Text moneyText;
 
 	private List<RectTransform> itemRects;
 	private int count, count2;
 	private float temp;
 	private int money=23500;
 
-	public void GetItems(string type) {
+	public void GetItems() {
 		itemRects = new List<RectTransform>();
 		for (int i=0;i<shopItems.items.Count;i++) {
 			var temp = Instantiate(itemPrefab);
@@ -51,12 +53,14 @@ public class StoreSystem : MonoBehaviour
 	}
 
 	public void DestroyItems() {
-
+		for (int i=0;i<shopItems.items.Count;i++) {
+			Destroy(itemRects[i].gameObject);
+		}
 	}
     // Start is called before the first frame update
     void Start()
     {
-        GetItems("Costume");
+        GetItems();
         count=0; count2=0;
     }
 
@@ -86,7 +90,16 @@ public class StoreSystem : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) ) {
         	if (shopItems.items[count].cost < money) {
+        		ItemsArray.ItemsData temp = new ItemsArray.ItemsData();
+        		temp = shopItems.items[count];
+        		temp.sold=true;
+        		shopItems.items[count] = temp;
+        		temp.cost = shopItems.items[count].cost - 600;
         		playerItems.items.Add(shopItems.items[count]);
+        		money=money - shopItems.items[count].cost;
+        		moneyText.text=money+"";
+        		DestroyItems();
+        		GetItems();
         	}
         }
     }

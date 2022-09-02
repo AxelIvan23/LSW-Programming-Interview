@@ -140,7 +140,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -234,6 +234,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1099,11 +1111,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Costume4_2: -3307444959057061545
-      Costume4_35: 587468585401382486
       Costume4_12: -2524952165825297718
       Costume4_1: 1340507625031328507
       Costume4_31: 8083047955498647209
       Costume4_3: -1251519117864149546
+      Costume4_8: 7765757779301136497
       Costume4_34: -6515156344882037293
       Costume4_13: 6224248298473599027
       Costume4_27: 5407852060156180054
@@ -1119,7 +1131,7 @@ TextureImporter:
       Costume4_36: -362227690477513246
       Costume4_33: -4475868381330924371
       Costume4_7: -2363967762972977883
-      Costume4_38: 2538236075577529406
+      Costume4_20: 2318004902962617384
       Costume4_9: 7967349331190639379
       Costume4_5: 8295729915195094397
       Costume4_23: 5304185668940851105
@@ -1131,13 +1143,13 @@ TextureImporter:
       Costume4_30: 8780723656584565917
       Costume4_19: 5336315623901913548
       Costume4_32: 9128755830859899527
-      Costume4_24: -9138181414217964407
-      Costume4_10: 5225410759292374086
-      Costume4_20: 2318004902962617384
-      Costume4_0: -3891036319353369231
-      Costume4_8: 7765757779301136497
-      Costume4_21: 8664048580003551618
       Costume4_26: 905880355299236223
+      Costume4_38: 2538236075577529406
+      Costume4_10: 5225410759292374086
+      Costume4_24: -9138181414217964407
+      Costume4_0: -3891036319353369231
+      Costume4_21: 8664048580003551618
+      Costume4_35: 587468585401382486
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
