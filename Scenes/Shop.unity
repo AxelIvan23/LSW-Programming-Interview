@@ -10176,6 +10176,8 @@ MonoBehaviour:
   playerItems: {fileID: 11400000, guid: 672a884a24c02c74390e681278b6b84c, type: 2}
   moneyText: {fileID: 1042115842}
   Player: {fileID: 901648847}
+  change: {fileID: 579553252}
+  description: {fileID: 841110014}
 --- !u!1 &1952516351
 GameObject:
   m_ObjectHideFlags: 0

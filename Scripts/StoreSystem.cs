@@ -31,6 +31,10 @@ public class StoreSystem : MonoBehaviour
 	private Text moneyText;
 	[SerializeField]
 	private GameObject Player;
+	[SerializeField]
+	private ChangeClothes change;
+	[SerializeField]
+	private Text description;
 
 	private List<RectTransform> itemRects;
 	private int count, count2;
@@ -40,6 +44,7 @@ public class StoreSystem : MonoBehaviour
 	void OnEnable()
     {
         Player.GetComponent<PlayerMov>().enabled = false;
+        Player.GetComponent<Collider2D>().enabled = false;
     }
 
 	public void GetItems() {
@@ -85,6 +90,7 @@ public class StoreSystem : MonoBehaviour
         	} else 
         		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y-55);
         	icon.GetComponent<Image>().sprite = shopItems.items[count].image;
+        	description.text = shopItems.items[count].description;
         	if (shopItems.items[count].type=="Costume") {
         		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(100.0f,140.0f);
         	}
@@ -104,6 +110,16 @@ public class StoreSystem : MonoBehaviour
         	} else 
         		iconSelect.anchoredPosition = new Vector2(iconSelect.anchoredPosition.x,iconSelect.anchoredPosition.y+55);
         	icon.GetComponent<Image>().sprite = shopItems.items[count].image;
+        	description.text = shopItems.items[count].description;
+        	if (shopItems.items[count].type=="Costume") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(100.0f,140.0f);
+        	}
+        	if (shopItems.items[count].type=="Hat") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(90.0f,90.0f);
+        	}
+        	if (shopItems.items[count].type=="Hair") {
+        		icon.GetComponent<RectTransform>().sizeDelta = new Vector2(90.0f,130.0f);
+        	}
         }
         if (Input.GetKeyDown(KeyCode.Space) ) {
         	if (shopItems.items[count].cost < money && !shopItems.items[count].sold) {
@@ -113,6 +129,7 @@ public class StoreSystem : MonoBehaviour
         		shopItems.items[count] = temp;
         		temp.cost = shopItems.items[count].cost - 600;
         		playerItems.items.Add(shopItems.items[count]);
+        		change.updateClothes(playerItems);
         		money=money - shopItems.items[count].cost;
         		moneyText.text=money+"";
         		DestroyItems();
@@ -123,6 +140,7 @@ public class StoreSystem : MonoBehaviour
 
     public void exit() {
     	 Player.GetComponent<PlayerMov>().enabled = true;
+    	 Player.GetComponent<Collider2D>().enabled = true;
     	this.gameObject.SetActive(false);
     }
 }

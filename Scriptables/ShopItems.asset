@@ -127,7 +127,7 @@ MonoBehaviour:
     name: Ninja Killer Costume
     description: A Ninja Costume that adds speed and letality to who use it.
     image: {fileID: 9123750145442138039, guid: 19638a69e3f16954683c0e5d3b6349f2, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: a1d70b87161ce5e4d8d47d074bfcd06e, type: 2}
   - id: 3
     type: Costume
     sold: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
     name: Formal Costume 1
     description: This costume is great if an elegant dinner is on the schedule
     image: {fileID: -3976494927918772410, guid: fc5537946a8330a43b80a880619f4bf8, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: adc3e274e0ac11343825332d1ddbada3, type: 2}
   - id: 4
     type: Costume
     sold: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
     name: Night Bandit Costume
     description: This costume will help to wander in the night unnoticed.
     image: {fileID: -5542147036822541906, guid: 3d677221cfb25cf47b9fb8694380ab02, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: eceada657b4f5114d8066122939c19b2, type: 2}
   - id: 5
     type: Costume
     sold: 0
@@ -152,15 +152,15 @@ MonoBehaviour:
     description: A stylized swimwear costume perfect for a day on the beach, adds
       water element resistance
     image: {fileID: -7450417863122824874, guid: c793338b6e9a64a439fc46a50c87e8ca, type: 3}
-    spriteArray: {fileID: 0}
+    spriteArray: {fileID: 11400000, guid: 00df21b57091111458211e652fdb5341, type: 2}
   - id: 6
     type: Costume
-    sold: 0
+    sold: 1
     cost: 4800
     name: Martial Arts Costume
     description: This martial arts costume have a melee combat style. Adds Melee
       damage +10
-    image: {fileID: 0}
+    image: {fileID: -409778673, guid: 22ab62a2c9f8a1a4eac590e4fd721c84, type: 3}
     spriteArray: {fileID: 0}
   - id: 7
     type: Hat
@@ -181,7 +181,7 @@ MonoBehaviour:
   - id: 9
     type: Hat
     sold: 0
-    cost: 0
+    cost: 1000
     name: Witch Hat
     description: This hat belongs to experienced mages. Magical power +50
     image: {fileID: -6859929674636716582, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}

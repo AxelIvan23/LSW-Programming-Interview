@@ -78,20 +78,11 @@ MonoBehaviour:
     description: No hat added
     image: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     spriteArray: {fileID: 11400000, guid: 1aacec5b78d58fe43b7afb88719f4173, type: 2}
-  - id: 5
-    type: Costume
-    sold: 1
-    cost: 3200
-    name: Beach swimwear
-    description: A stylized swimwear costume perfect for a day on the beach, adds
-      water element resistance
-    image: {fileID: -7450417863122824874, guid: c793338b6e9a64a439fc46a50c87e8ca, type: 3}
-    spriteArray: {fileID: 11400000, guid: 00df21b57091111458211e652fdb5341, type: 2}
   - id: 6
     type: Hat
     sold: 1
     cost: 1800
     name: Soldier Hat
-    description: ddwdw
+    description: A soldier hat
     image: {fileID: -4909813843165402850, guid: 08565bb7afb4400429c3cd877b6d4b42, type: 3}
     spriteArray: {fileID: 11400000, guid: 4bbcfab534227ff47b48520356ae4ad3, type: 2}

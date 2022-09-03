@@ -37,6 +37,10 @@ public class ChangeClothes : MonoBehaviour
         }
     }
 
+    public void updateClothes(ItemsArray newClothes) {
+        Items=newClothes;
+        countItems();
+    }
     /*public void Customize(int HeadNum, int BodyNum, int HatNum) {
     	Resources.UnloadUnusedAssets();
     	recorrer(BodyNum,0);
